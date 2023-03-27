@@ -20,7 +20,7 @@ class Ship:
         self.rect.midbottom = self.screen_rect.midbottom
         
         # Store a float for the ship's exact horizontal position.
-        self.x = float(self.rext.x)
+        self.x = float(self.rect.x)
         
         # Movement flag; start with a ship that's not moving.
         self.moving_right = False
